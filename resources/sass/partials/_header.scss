@@ -1,0 +1,61 @@
+header{
+  min-height: 70px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+  .header_top{
+    background-color: $my_blue;
+  }
+  .wrap{
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .logo{
+          margin: 20px 0px;
+          img{
+              height: 80px
+          };
+      }
+      ul{
+          padding-top: 52px;
+          text-transform: uppercase;
+
+          li{
+              display: inline-block;
+              margin: 0px 20px;
+              padding-bottom: 52px;
+              position: relative;
+              .shop_link{
+                // width: 0; 
+                // height: 0; 
+                // border-left: 10px solid transparent;
+                // border-right: 10px solid transparent;
+                // border-top: 10px solid #f00;
+                // content: "\2023";
+                color: $my_blue;
+                font-size: 13px;
+                // transform: rotateY(180deg);
+              }
+              a:hover{
+               color: lightblue;
+              } 
+          }
+      
+      }
+      
+  }
+}
+.underline::after{
+ display: block;
+ content: '';
+ height: 5px;
+ background-color: lightblue;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+}
+.colored{
+  color: lightblue;
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  min-height: 70px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+}
+header .header_top {
+  background-color: #0c7cec;
+}
+header .wrap {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .wrap .logo {
+  margin: 20px 0px;
+}
+header .wrap .logo img {
+  height: 80px;
+}
+header .wrap ul {
+  padding-top: 52px;
+  text-transform: uppercase;
+}
+header .wrap ul li {
+  display: inline-block;
+  margin: 0px 20px;
+  padding-bottom: 52px;
+  position: relative;
+}
+header .wrap ul li .shop_link {
+  color: #0c7cec;
+  font-size: 13px;
+}
+header .wrap ul li a:hover {
+  color: lightblue;
+}
+
+.underline::after {
+  display: block;
+  content: "";
+  height: 5px;
+  background-color: lightblue;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.colored {
+  color: lightblue;
+}
+
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
