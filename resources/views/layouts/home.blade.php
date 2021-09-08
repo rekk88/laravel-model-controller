@@ -11,13 +11,14 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-       
     </head>
     <body>
       @include('partials.header')
 			<main>
-				@yield('main')
-        @yield('jumbo')
+        @include('partials.jumbo')
+				@yield('main') <!--questo sarà sostituito di volta in volta
+        con il codice che si trova in @section('main') che cambia a seconda
+        della pagina visualizzata-->
 			</main>
       @include('partials.footer')
     </body>

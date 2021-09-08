@@ -9,7 +9,7 @@
       </div>
       <ul>
         <li><a>characters</a></li>
-        <li><a>comics</a></li>
+        <li><a href="{{route('comics')}}">comics</a></li>
         <li><a>movies</a></li>
         <li><a>tv</a></li>
         <li><a>games</a></li>
@@ -19,7 +19,6 @@
         <li><a>news</a></li>
         <li><a>shop</a> <span class="shop_link">&#9660;</span> </li>
         <li><input type="text" placeholder="search"> </li>
-
       </ul>
     </div>
 </header>

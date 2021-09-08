@@ -36,6 +36,10 @@ header .wrap ul li {
   padding-bottom: 52px;
   position: relative;
 }
+header .wrap ul li a {
+  text-decoration: none;
+  color: inherit;
+}
 header .wrap ul li .shop_link {
   color: #0c7cec;
   font-size: 13px;

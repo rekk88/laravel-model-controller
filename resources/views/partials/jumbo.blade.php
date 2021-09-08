@@ -1,7 +1,5 @@
-@extends('layouts.app')
 
-@section('jumbo')
-  <div class="">
-    Jumbo testo di prova
-  </div>
-@endsection
+<!-- pagina di prova  -->
+<div class="">
+  Jumbo testo di prova
+</div>
