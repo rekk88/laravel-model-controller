@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','MagicController@index');
 
 Route::get('/comics','MagicController@show')->name('comics');
+
+Route::get('/comic/{id}','MagicController@showComic')->name('comic');
